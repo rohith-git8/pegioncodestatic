@@ -720,6 +720,8 @@ section,
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 60px 0;
+  padding-top: 30px; /* Reduce padding at the top of each section */
+  padding-bottom: 0px;
   scroll-margin-top: 900px;
   overflow: clip;
 }
@@ -736,8 +738,9 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 10px;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .section-title h2 {
@@ -1064,6 +1067,7 @@ section,
 .courses .course-item {
   border-radius: 5px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  margin-bottom:5px;
 }
 
 .courses .course-content {
