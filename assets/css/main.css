@@ -777,6 +777,14 @@ section,
 .table.table-striped td {
     padding-left: 180px; /* Adjust the value to your desired padding */
 }
+
+@media (max-width: 768px) {
+  .table.table-striped th,
+  .table.table-striped td {
+    padding-left: 10px; /* Adjust as needed */
+    text-align: center; /* Center-align content for better readability */
+  }
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
