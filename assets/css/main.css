@@ -773,6 +773,10 @@ section,
   text-transform: uppercase;
 }
 
+.table.table-striped th,
+.table.table-striped td {
+    padding-left: 180px; /* Adjust the value to your desired padding */
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
